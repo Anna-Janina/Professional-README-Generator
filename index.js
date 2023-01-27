@@ -53,32 +53,15 @@ inquirer
 ])
 
 
-
-
-
-// .then(function(result){
-//     fs.writeFile('log.json', JSON.stringify(results), (err) =>
-//         err ? console.error(err) : console.log('Success!')
-//     );
-
-
-// .then((answers) => {
-//     const readmePageContent = generateReadme(answers);
-    
-//     fs.writeFile('readme-generate.md', readmePageContent, (err) =>
-//         err ? console.log(err) : console.log('Success!')
-//     );
-    
-// })
-
 .then((answers) => {
     // TODO: Create a function to write README file
-    const filename = data.title.replace(' ', "").toLowerCase()
-    fs.writeFile(`${filename}.md`, generateMarkDown(answers), (err) =>
-        err ? console.error(err) : console.log("Success!"))
-})
+    const filename = answers.title.replace(' ', "").toLowerCase()
+    fs.writeFile(`${filename}.md`, generateMarkdown(answers), (err) =>
+        err ? console.error(err) : console.log("Success!")
+    );
+});
 // TODO: Create a function to initialize app
-function init() { }
+function init() {}
 
 // Function call to initialize app
 init();

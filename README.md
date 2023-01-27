@@ -1,7 +1,6 @@
 # Professional-README-Generator
 
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for information about my application repository
+
 THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 WHEN I enter my project title
 THEN this is displayed as the title of the README
@@ -15,3 +14,24 @@ WHEN I enter my email address
 THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
+
+## Description
+
+- Password generator task in JavaScript
+- ou will get prompt with different password options to choose from. Once you made your selection you will receive a password.
+
+## Installation
+
+- N/A
+- 
+## Usage
+
+![alt text](password%20generator.png)
+  
+  ## Credits
+
+- N/A
+
+## License
+
+Please refer to the LICENSE in the repo.
