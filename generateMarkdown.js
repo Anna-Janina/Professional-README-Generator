@@ -37,8 +37,8 @@ ${answers.contributing}
 ${answers.testing}
 
 ## Questions
-Find me on Github: (https://github.com/${answers.github})
-For any questions, email me at: ${answers.email}
+- Find me on Github: (https://github.com/${answers.github})
+- For any questions, email me at: ${answers.email}
 
 ## License
 ${answers.license}
