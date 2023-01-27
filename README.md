@@ -10,8 +10,10 @@
 - [Usage](#Usage)
 - [Contributing](#Contributing)
 - [Tests](#Tests)
-- [Questions](#Questions)
 - [License](#License)
+
+## Credits
+- N/A
 
 ## Description
 Every project has a README file. This application will asked you a few questions and by end of it, it will generate a README.md for you. Quick and easy that you can focus on coding.
@@ -19,18 +21,11 @@ Every project has a README file. This application will asked you a few questions
 ## Installation
 npm install
 
-## Usage
-![alt text](./Video/Professional%20README%20Generator_%20Jan%2027%2C%202023%208_03%20PM.webm)
-
 ## Contributing
 This is a test repo
 
 ## Tests
 npm test
-
-## Questions
-- Find me on Github: (https://github.com/Anna-Janina)
-- For any questions, email me at: annajaninaschmidt@gmail.com
 
 ## License
 MIT
