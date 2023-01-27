@@ -1,7 +1,15 @@
- function generateMarkdown(answers) {
+function renderBadge(license) {
+    if (license !== 'None') {
+        return `![GitHub license](https://img.shields.io/badge/license-$%7Blicense%7D-blue.svg)`
+    }
+    return '';
+}
+
+function generateMarkdown(answers) {
 return `
 # ${answers.title}
-![GitHub](https://img.shields.io/github/license/Anna-Janina/Professional-README-Generator?style=plastic)
+
+${renderBadge(answers.license)}
 
 
 ## Table of Contents
