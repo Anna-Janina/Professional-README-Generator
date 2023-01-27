@@ -39,4 +39,4 @@
     }
 
 
-module.exports = MarkDown
+module.exports = generateMarkdown
