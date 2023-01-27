@@ -1,5 +1,5 @@
 
-# hdgfir
+# Professional README Generator
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
@@ -14,23 +14,23 @@
 - [Questions](#Questions)
 
 ## Description
-dkhsgfjy
+Generates quick and easy a README.md for any project
 
 ## Usage
-sdhvfuy
+This is a mock repository
 
 ## Installation
-sdfkgi
+npm install
 
 ## Contributing
-sdkfjho
+This is a test repo
 
 ## Tests
-dsfjhi
+npm test
 
 ## Questions
-- Find me on Github: (https://github.com/sjfhoi)
-- For any questions, email me at: dfho
+- Find me on Github: (https://github.com/Anna-Janina)
+- For any questions, email me at: annajaninaschmidt@gmail.com
 
 ## License
 MIT
