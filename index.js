@@ -55,8 +55,7 @@ inquirer
 
 .then((answers) => {
     // TODO: Create a function to write README file
-    const filename = answers.title.replace(' ', "").toLowerCase()
-    fs.writeFile(`${filename}.md`, generateMarkdown(answers), (err) =>
+    fs.writeFile('README.MD', generateMarkdown(answers), (err) =>
         err ? console.error(err) : console.log("Success!")
     );
 });
