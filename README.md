@@ -8,19 +8,20 @@
 - [Project description](#Description)
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [License](#License)
 - [Contributing](#Contributing)
 - [Tests](#Tests)
 - [Questions](#Questions)
+- [License](#License)
 
 ## Description
-Generates quick and easy a README.md for any project
-
-## Usage
-This is a mock repository
+Every project has a README file. This application will asked you a few questions and by end of it, it will generate a README.md for you. Quick and easy that you can focus on coding.
 
 ## Installation
 npm install
+
+## Usage
+[label](Video/Professional%20README%20Generator_%20Jan%2027,%202023%208_03%20PM.webm%0D) [label](README.MD)
+
 
 ## Contributing
 This is a test repo
