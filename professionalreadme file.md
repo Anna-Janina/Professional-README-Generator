@@ -1,5 +1,5 @@
 
-    # Professional Readme Generator
+    # Professional Readme file
     ![GitHub](https://img.shields.io/github/license/Anna-Janina/Professional-README-Generator?style=plastic)
 
 
@@ -13,10 +13,10 @@
     - [Questions](#Questions)
 
     ## Description
-    This project creates fast and easy a README file.
+    A simple and easy generated Readme file
 
     ## Usage
-    This is a test repo
+    This is a dummy repo
 
     ## Installation
     npm install
