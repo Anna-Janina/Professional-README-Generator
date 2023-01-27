@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const MarkDown = require('./generateMarkdown')
+const MarkDown = require('./generateMarkdown');
 
 inquirer
     .prompt([
@@ -47,7 +47,7 @@ inquirer
         {
             type: 'list',
             name: 'license',
-            message: 'What license do you use?',
+            message: 'Choose your license for your project',
             choices: ['MIT', 'BSD3', 'LGPL', 'Apache', 'Other', 'None']
         },
 ])
@@ -62,13 +62,23 @@ inquirer
 //     );
 
 
+// .then((answers) => {
+//     const readmePageContent = generateReadme(answers);
+    
+//     fs.writeFile('readme-generate.md', readmePageContent, (err) =>
+//         err ? console.log(err) : console.log('Success!')
+//     );
+    
+// })
+
 .then((answers) => {
-    const readmePageContent = generateReadme(answers);
-    
-    fs.writeFile('readme-generate.md', readmePageContent, (err) =>
-        err ? console.log(err) : console.log('Success!')
-    );
-    
+    // TODO: Create a function to write README file
+    const filename = data.title.replace(' ', "").toLowerCase()
+    fs.writeFile(`${filename}.md`, generateMarkDown(answers), (err) =>
+        err ? console.error(err) : console.log("Success!"))
 })
+// TODO: Create a function to initialize app
+function init() { }
 
-
+// Function call to initialize app
+init();

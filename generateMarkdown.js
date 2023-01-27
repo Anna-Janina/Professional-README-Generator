@@ -1,6 +1,8 @@
  function generateMarkdown(answers) {
     return `
     # ${answers.title}
+    ![GitHub](https://img.shields.io/github/license/Anna-Janina/Professional-README-Generator?style=plastic)
+
 
     ## Table of Contents
     - [Project description](#Description)
@@ -35,6 +37,6 @@
 
     `
     }
-}
+
 
 module.exports = MarkDown
