@@ -1,5 +1,5 @@
 
-# fhgieur
+# Professional README Generator
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
@@ -14,22 +14,22 @@
 - [Questions](#Questions)
 
 ## Description
-dfhyu
+Generates quick and easy a README.md for any project
 
 ## Usage
-fhgduy
+This is a mock repository
 
 ## Installation
-fhgdyu
+npm install
 
 ## Contributing
-hdghi
+This is a test repo
 
 ## Tests
-jfdghi
+npm test
 
 ## Questions
-hfdgbi
+Anna-Janina
 undefined
 
 ## License
