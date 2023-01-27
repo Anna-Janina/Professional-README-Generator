@@ -20,8 +20,7 @@ Every project has a README file. This application will asked you a few questions
 npm install
 
 ## Usage
-[label](Video/Professional%20README%20Generator_%20Jan%2027,%202023%208_03%20PM.webm)
-
+![alt text](./Video/Professional%20README%20Generator_%20Jan%2027%2C%202023%208_03%20PM.webm)
 
 ## Contributing
 This is a test repo
