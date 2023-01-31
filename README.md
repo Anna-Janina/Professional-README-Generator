@@ -1,5 +1,5 @@
 
-# Professional README Generator
+# Professional READEME Generator
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
@@ -8,15 +8,16 @@
 - [Project description](#Description)
 - [Installation](#Installation)
 - [Usage](#Usage)
+- [License](#License)
 - [Contributing](#Contributing)
 - [Tests](#Tests)
-- [License](#License)
-
-## Credits
-- N/A
+- [Questions](#Questions)
 
 ## Description
-Every project has a README file. This application will asked you a few questions and by end of it, it will generate a README.md for you. Quick and easy that you can focus on coding.
+Generates quick and easy a README.md for any project
+
+## Usage
+This is a mock repository
 
 ## Installation
 npm install
@@ -26,6 +27,10 @@ This is a test repo
 
 ## Tests
 npm test
+
+## Questions
+- Find me on Github: (https://github.com/Anna-Janina)
+- For any questions, email me at: annajaninaschmidt@gmail.com
 
 ## License
 MIT

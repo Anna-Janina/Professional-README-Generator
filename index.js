@@ -54,12 +54,13 @@ inquirer
 
 
 .then((answers) => {
-    // TODO: Create a function to write README file
+    // Create a function to write README file
     fs.writeFile('README.MD', generateMarkdown(answers), (err) =>
         err ? console.error(err) : console.log("Success!")
     );
 });
-// TODO: Create a function to initialize app
+
+// Create a function to initialize app
 function init() {}
 
 // Function call to initialize app
